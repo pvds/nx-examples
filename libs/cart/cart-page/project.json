@@ -16,12 +16,7 @@
       "outputs": ["{options.outputFile}"]
     },
     "test": {
-      "executor": "@nx/jest:jest",
-      "options": {
-        "jestConfig": "libs/cart/cart-page/jest.config.ts",
-        "passWithNoTests": true
-      },
-      "outputs": ["{workspaceRoot}/coverage/libs/cart/cart-page"]
+      "executor": "@nx/jest:jest"
     }
   },
   "tags": ["scope:cart", "type:feature"]
